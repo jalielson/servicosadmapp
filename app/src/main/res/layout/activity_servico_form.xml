@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cliente" />
+
+    <EditText
+        android:id="@+id/cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do cliente" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço" />
+
+    <EditText
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereco do cliente" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fone" />
+
+    <EditText
+        android:id="@+id/fone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fone do cliente" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dispositivo" />
+
+    <EditText
+        android:id="@+id/dispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dispositivo do cliente" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observações" />
+
+    <EditText
+        android:id="@+id/obsdispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Observações do dispositivo"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serviço" />
+
+    <EditText
+        android:id="@+id/servico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição do serviço"
+        android:ems="10" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor" />
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Valor do orçamento" />
+
+    <Button
+        android:id="@+id/salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bt_salvar" />
+
+
+
+
+</LinearLayout>
